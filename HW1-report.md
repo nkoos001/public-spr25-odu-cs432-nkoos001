@@ -39,6 +39,12 @@ Given the directed links, the graph consists of the following nodes: A, B, C, D,
 
 [Directed graph visualization](hw1-q1diagram.png)
 
+Diagram Key:
+- SCC (core component): Red
+- IN: Blue
+- OUT: Green
+- Disconnected: Yellow
+
 # Q2
 
 Part A: The "User-Agent" header
