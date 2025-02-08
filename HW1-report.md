@@ -37,27 +37,29 @@ Given the directed links, the graph consists of the following nodes: A, B, C, D,
 - Nodes: E, F, I, J, K, N, O
 - These nodes are not connected to the SCC, IN, or OUT components.
 
+[Directed graph visualization](hw1-q1diagram.png)
+
 # Q2
 
-* Part A: The "User-Agent" header
+Part A: The "User-Agent" header
 
 [Screenshot 1](hw1-q2ss1.png)
 
 Loading the webpage in your browser displays the User-Agent string that your browser sends by default, which typically includes details like the browser name, version, and operating system.
 
-* Part B: The curl command requesting the URI with specific options
+Part B: The curl command requesting the URI with specific options
 
 [Screenshot 2](hw1-q2ss2.png)
 
 Executing the curl command with options to show HTTP response headers, follow redirects, and set the User-Agent to "CS432/532" results in the display of the HTTP headers from the final destination. However, since the -I option is used, only headers are shown, and the response body (which would echo the User-Agent) is not included.
 
-* Part C: The curl command requesting the URI, saving the HTML output to a file
+Part C: The curl command requesting the URI, saving the HTML output to a file
 
 [Screenshot 3](hw1-q2ss3.png)
 
 Running the curl command with options to follow redirects, set the User-Agent to "CS432/532", and save the output to output.html stores the HTML content of the response in the specified file. This file contains the echoed User-Agent string, confirming that the server received the custom User-Agent header.
 
-* Part D: Viewing the HTML output file
+Part D: Viewing the HTML output file
 
 [Screenshot 4](hw1-q2ss4.png)
 
@@ -80,6 +82,8 @@ I used the method of starting with an initial seed webpage and extracting all va
 - https://www.linkedin.com/
 
 # References
+
+* Directed graph design (draw.io), question 1: <https://app.diagrams.net/>
 
 * ChatGPT task, question 1: <https://chatgpt.com/share/67a692b6-7830-800f-bce0-17747cbd6562>
 
